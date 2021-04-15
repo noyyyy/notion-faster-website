@@ -1,6 +1,3 @@
-const pageUrlOverrides = require('./page-overrides.json')
-  // top of site.config.js
-  // and then use pageUrlOverrides in your config
 
 
 module.exports = {
@@ -18,9 +15,9 @@ module.exports = {
   author: 'Jerry Wang',
 
   // open graph metadata (optional)
-  description: '',
+  description: 'Better visit speed in China mainland',
   socialImageTitle: '',
-  socialImageSubtitle: 'Hello World! 👋',
+  socialImageSubtitle: '',
 
   // social usernames (optional)
  // twitter: 'transitive_bs',
