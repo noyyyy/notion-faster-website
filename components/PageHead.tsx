@@ -79,6 +79,11 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+      <script
+        defer
+        data-domain='notionfaster.org'
+        src='https://plausible.io/js/plausible.js'
+      ></script>
     </Head>
   )
 }
