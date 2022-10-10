@@ -1,7 +1,4 @@
-
-
 module.exports = {
-
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: '7489343b51634e79b6bec8bfb6956381',
 
@@ -11,18 +8,13 @@ module.exports = {
 
   // basic site info (required)
   name: 'Notion faster',
-  domain: 'notionfaster.cn',
-  author: 'Jerry Wang',
+  domain: 'notionfaster.org',
+  author: 'Notion faster',
 
   // open graph metadata (optional)
   description: 'Better visit speed in China mainland',
   socialImageTitle: '',
   socialImageSubtitle: '',
-
-  // social usernames (optional)
- // twitter: 'transitive_bs',
-  // github: 'Jerrywang959',
- // linkedin: 'fisch2',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -32,7 +24,7 @@ module.exports = {
 
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
-  //imageCDNHost: 'https://ssfy.io',
+  // imageCDNHost: 'https://ssfy.io',
 
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: 'notion-faster-website',
