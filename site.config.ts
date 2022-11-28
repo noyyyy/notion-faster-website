@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '511f7d9e-5e9f-4501-92ac-1a78f4217dd9',
 
   // basic site info (required)
   name: 'Notion faster',
