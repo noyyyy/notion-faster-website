@@ -81,8 +81,8 @@ export const PageHead: React.FC<
       <title>{title}</title>
       <script
         defer
-        data-domain='notionfaster.org'
-        src='https://plausible.io/js/plausible.js'
+        src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "e73d2392a3e4424a93f6bec2d567b1d2"}'
       ></script>
     </Head>
   )
